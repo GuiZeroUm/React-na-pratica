@@ -58,7 +58,7 @@ export function Pagination({ items, page, pages }: PaginationProps) {
     })
   }
 
-  return (
+ return (
     <div className="flex text-sm items-center justify-between text-zinc-500">
       <span>Showing 10 of {items} items</span>
       <div className="flex items-center gap-8">
